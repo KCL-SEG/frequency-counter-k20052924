@@ -3,5 +3,5 @@
 
 def frequencies(items):
     frequencies = {}
-    # Your code goes here
+    value=str(items)
     return frequencies
