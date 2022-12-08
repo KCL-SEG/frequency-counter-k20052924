@@ -4,8 +4,8 @@ from collections import Counter
 
 def frequencies(items):
     value=str(items)
+    frequencies = { }
+    key = Counter(frequencies.values())
     frequencies = {key: value}
-    counter = Counter(frequencies.values())
-    frequencies = {key: counter}
 
     return frequencies
