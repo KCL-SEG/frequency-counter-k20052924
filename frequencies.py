@@ -3,5 +3,9 @@
 
 def frequencies(items):
     frequencies = {}
-    key=str(items)
+    keys = range(4)
+    values = str(items)
+    for i in keys:
+        for x in values:
+            frequencies[i] = x
     return frequencies
