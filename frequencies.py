@@ -2,10 +2,18 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
+
+
     frequencies = {}
-    keys = range(4)
-    values = str(items)
-    for i in keys:
-        for x in values:
-            frequencies[i] = x
+    # iterating over the list
+    output = [str(x) for x in items]
+    for i in output:
+   # checking the element in dictionary
+        if i in frequencies:
+      # incrementing the counr
+            frequencies[i] += 1
+        else:
+      # initializing the count
+            frequencies[i] = 1
+
     return frequencies
